@@ -23,10 +23,11 @@ export default function About() {
               {personalInfo.bio}
             </p>
             <p className="text-base leading-relaxed text-midnight-400">
-              My journey spans from a software engineering internship at Capital Maharaja Group, where
-              I worked on Sri Lanka&apos;s leading news platforms and live-streaming services,
-              to my current role building SEO-optimized Next.js applications for a UK-based company.
-              I thrive at the intersection of performance engineering and user experience.
+              My journey spans from freelance web design, through a software engineering role at Capital
+              Maharaja Group where I worked on Sri Lanka&apos;s leading news platforms and live-streaming
+              services, to my current roles building cloud microservices at SeekaHost™ and SEO-optimized
+              Next.js applications at ClickDo. I thrive at the intersection of performance engineering
+              and user experience.
             </p>
             <p className="text-base leading-relaxed text-midnight-400">
               When I&apos;m not coding, I&apos;m exploring cloud computing, DevOps practices,
@@ -47,7 +48,7 @@ export default function About() {
               <div className="space-y-4">
                 {[
                   { label: 'Based in', value: 'Galle, Sri Lanka' },
-                  { label: 'Working at', value: 'ClickDo Ltd. (UK)' },
+                  { label: 'Working at', value: 'SeekaHost™ & ClickDo (UK)' },
                   { label: 'Education', value: 'London Metropolitan Uni.' },
                   { label: 'Languages', value: 'Sinhala, English' },
                   { label: 'Specialty', value: 'Fullstack Development' },
@@ -72,10 +73,10 @@ export default function About() {
               <div className="flex flex-wrap gap-2">
                 {[
                   'Full Stack',
-                  'UI/UX',
-                  'Mobile Dev',
-                  'DevOps',
+                  'AI & ML',
                   'Cloud',
+                  'DevOps',
+                  'Mobile Dev',
                 ].map((interest) => (
                   <span
                     key={interest}

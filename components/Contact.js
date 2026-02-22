@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-midnight-900/30 to-midnight-950" />
 
       <div className="relative max-w-7xl mx-auto">
-        <SectionHeading label="06 / Contact" title="Let's Connect" align="center" />
+        <SectionHeading label="07 / Contact" title="Let's Connect" align="center" />
 
         <div ref={ref} className="max-w-3xl mx-auto">
           {/* Main CTA */}

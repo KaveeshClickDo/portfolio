@@ -26,6 +26,87 @@ function SkillBar({ name, level, delay }) {
   );
 }
 
+const skillDistribution = [
+  { label: 'Frontend', percent: 30, color: '#60a5fa' },
+  { label: 'Backend', percent: 30, color: '#c88a3a' },
+  { label: 'AI & ML', percent: 15, color: '#f59e0b' },
+  { label: 'DevOps & Cloud', percent: 15, color: '#34d399' },
+  { label: 'Mobile', percent: 10, color: '#f472b6' },
+];
+
+function DonutChart() {
+  const [ref, isVisible] = useInView();
+  const radius = 70;
+  const circumference = 2 * Math.PI * radius;
+  let cumulativeOffset = 0;
+
+  return (
+    <div
+      ref={ref}
+      className={`glass-card p-6 md:p-8 space-y-6 hover-lift transition-all duration-700 ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+      }`}
+      style={{ transitionDelay: '200ms' }}
+    >
+      <h3 className="font-mono text-xs tracking-[0.2em] uppercase text-sand-500">
+        Skill Distribution
+      </h3>
+      <div className="flex items-center gap-8">
+        {/* Donut SVG */}
+        <div className="relative shrink-0">
+          <svg width="160" height="160" viewBox="0 0 180 180" className="-rotate-90">
+            {skillDistribution.map((segment) => {
+              const dashLength = (segment.percent / 100) * circumference;
+              const dashGap = circumference - dashLength;
+              const offset = (cumulativeOffset / 100) * circumference;
+              cumulativeOffset += segment.percent;
+
+              return (
+                <circle
+                  key={segment.label}
+                  cx="90"
+                  cy="90"
+                  r={radius}
+                  fill="none"
+                  stroke={segment.color}
+                  strokeWidth="18"
+                  strokeDasharray={isVisible ? `${dashLength} ${dashGap}` : `0 ${circumference}`}
+                  strokeDashoffset={-offset}
+                  strokeLinecap="round"
+                  className="transition-all duration-1000 ease-out"
+                  style={{ transitionDelay: '400ms' }}
+                />
+              );
+            })}
+          </svg>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center">
+              <div className="font-display text-2xl font-bold text-midnight-50">25+</div>
+              <div className="text-[10px] text-midnight-500 uppercase tracking-wider">Skills</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Legend */}
+        <div className="space-y-3 flex-1">
+          {skillDistribution.map((segment) => (
+            <div key={segment.label} className="flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2">
+                <span
+                  className="w-2.5 h-2.5 rounded-full shrink-0"
+                  style={{ backgroundColor: segment.color }}
+                />
+                <span className="text-sm text-midnight-300">{segment.label}</span>
+              </div>
+              <span className="font-mono text-xs text-midnight-500">{segment.percent}%</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function SkillCategory({ title, items, delay = 0 }) {
   const [ref, isVisible] = useInView();
 
@@ -63,8 +144,8 @@ export default function Skills() {
         <SectionHeading label="04 / Skills" title="Tech Arsenal" />
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Left: Language proficiency bars */}
-          <div className="space-y-8">
+          {/* Left: Language proficiency bars + Donut chart */}
+          <div className="space-y-6">
             <div className="glass-card p-6 md:p-8 space-y-6">
               <h3 className="font-mono text-xs tracking-[0.2em] uppercase text-sand-500">
                 Programming Languages
@@ -80,6 +161,7 @@ export default function Skills() {
                 ))}
               </div>
             </div>
+            <DonutChart />
           </div>
 
           {/* Right: Categorized skills */}
@@ -88,6 +170,16 @@ export default function Skills() {
               title="Frameworks & Libraries"
               items={skills.frameworks}
               delay={100}
+            />
+            <SkillCategory
+              title="AI & Machine Learning"
+              items={skills.ai}
+              delay={125}
+            />
+            <SkillCategory
+              title="DevOps & Cloud"
+              items={skills.devops}
+              delay={175}
             />
             <div className="grid grid-cols-2 gap-6">
               <SkillCategory

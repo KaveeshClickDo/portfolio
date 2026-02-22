@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { personalInfo } from '@/lib/data';
+import { generateCV } from '@/lib/generateCV';
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);
@@ -60,7 +61,7 @@ export default function Hero() {
                 loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              Fullstack Software Engineer
+              Software Engineer | Full Stack Developer | Cloud &amp; AI Enthusiast
             </p>
 
             {/* Description */}
@@ -69,9 +70,9 @@ export default function Hero() {
                 loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              Building scalable web applications that serve millions.
+              Building scalable, AI-enhanced web applications that serve millions.
               <br className="hidden sm:block" />
-              From real-time streaming platforms to national-scale news systems.
+              From real-time streaming platforms to intelligent cloud solutions.
             </p>
 
             {/* CTAs */}
@@ -95,12 +96,15 @@ export default function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                 </svg>
               </a>
-              <a
-                href="#contact"
+              <button
+                onClick={generateCV}
                 className="inline-flex items-center gap-3 px-7 py-3.5 text-sm font-semibold text-midnight-100 border border-midnight-700 hover:border-sand-500/50 rounded-xl transition-all duration-300 hover:bg-midnight-900/50"
               >
-                Get In Touch
-              </a>
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                Download CV
+              </button>
             </div>
 
             {/* Social Links */}
@@ -170,19 +174,19 @@ export default function Hero() {
               {/* Stats Grid */}
               <div className="relative w-72 h-72 md:w-80 md:h-80">
                 <div className="absolute top-0 left-0 glass-card p-5 hover-lift">
-                  <div className="font-display text-3xl font-bold text-sand-400">3+</div>
+                  <div className="font-display text-3xl font-bold text-sand-400">4+</div>
                   <div className="text-sm text-midnight-400 mt-1">Years Experience</div>
                 </div>
                 <div className="absolute top-4 right-0 glass-card p-5 hover-lift">
-                  <div className="font-display text-3xl font-bold text-sand-400">4+</div>
-                  <div className="text-sm text-midnight-400 mt-1">Enterprise Projects</div>
+                  <div className="font-display text-3xl font-bold text-sand-400">13+</div>
+                  <div className="text-sm text-midnight-400 mt-1">Projects Completed</div>
                 </div>
                 <div className="absolute bottom-4 left-4 glass-card p-5 hover-lift">
                   <div className="font-display text-3xl font-bold text-sand-400">1M+</div>
                   <div className="text-sm text-midnight-400 mt-1">Users Served</div>
                 </div>
                 <div className="absolute bottom-0 right-2 glass-card p-5 hover-lift">
-                  <div className="font-display text-3xl font-bold text-sand-400">15+</div>
+                  <div className="font-display text-3xl font-bold text-sand-400">25+</div>
                   <div className="text-sm text-midnight-400 mt-1">Technologies</div>
                 </div>
 

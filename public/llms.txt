@@ -1,0 +1,55 @@
+# Kaveesh Senevirathne — Portfolio
+
+> Software Engineer | Full Stack Developer | Cloud & AI Enthusiast
+
+## About
+Kaveesh Senevirathne is a Software Engineer with 4+ years of experience building scalable web applications, cloud microservices, and AI-integrated solutions. Currently working remotely with SeekaHost (UK) and ClickDo (UK). Based in Galle, Sri Lanka.
+
+## Contact
+- Email: khsenevirathne@gmail.com
+- Phone: +94 76 5350039
+- LinkedIn: https://www.linkedin.com/in/kaveesh-senevirathne
+- GitHub: https://github.com/KHSenevirathne
+- Stack Overflow: https://stackoverflow.com/users/14956167/kaveesh-senevirathne
+- Website: https://kaveesh.cv
+
+## Current Roles
+- Software Engineer at SeekaHost (Oct 2025 – Present) — AWS, Microservices, C#, TypeScript, Swagger API
+- Software Engineer at ClickDo (Mar 2025 – Present) — Next.js, React, Tailwind CSS, SEO, WordPress
+
+## Experience
+- Software Engineer, SeekaHost (Oct 2025 – Present)
+- Software Engineer, ClickDo (Mar 2025 – Present)
+- Associate IT Executive, Wave Beach Resort (Jan 2024 – Feb 2025)
+- Software Engineer, Capital Maharaja Group (Jan 2023 – Aug 2023)
+- Software Engineer Intern, Arya Labs Ltd (Nov 2022 – Jan 2023)
+- Freelance Web & Graphic Designer, Fiverr (Jan 2022 – Nov 2022)
+
+## Technical Skills
+- Languages: Java, JavaScript, TypeScript, Python, CSS/SASS, SQL, PHP, C#
+- Frameworks: React, Angular, Next.js, Spring Boot, Node.js, NestJS, .NET Core, Flutter, Laravel, Vue.js
+- AI & ML: OpenAI API, LangChain, RAG, Prompt Engineering, TensorFlow, Scikit-learn, Pandas, NumPy, Jupyter, GitHub Copilot, Cursor, Claude AI
+- DevOps & Cloud: AWS, Docker, Jenkins, Ansible, CI/CD, Serverless, Apache Tomcat
+- Databases: MySQL, MongoDB, Microsoft SQL Server
+- Tools: Git, GitHub, GitLab, Postman, Swagger, Figma, WordPress, Agile, REST APIs
+
+## Education
+- Bachelor of Engineering (BE), Computer Software Engineering — London Metropolitan University (2025–2027, In Progress)
+- Graduate Diploma in Software Engineering (GDSE) — Institute of Software Engineering, IJSE (2021–2024)
+- Diploma, ICT System Development — IDM Nations Campus International (2019–2020)
+
+## Certifications
+- Certified API Tester
+- Full Stack QA
+- Java Masterclass
+- OCI AI Foundations Associate 2025 (Oracle)
+- ISC2 Certified in Cybersecurity (CC)
+- IBM Blockchain Essentials
+
+## Key Projects
+- Election 2023 — Newsfirst: Real-time election coverage platform for Sri Lanka (Angular, Next.js, Spring Boot)
+- Newsfirst.lk: National-scale multi-platform news system (Next.js, Spring Boot, Angular)
+- Cricket World Cup 2023 Live Stream: Live streaming platform serving 1M+ users (Spring Boot, JavaScript)
+- Digital Transformation — Wave Beach Resort: Hotel billing, booking, and automation systems
+- Machine Learning Projects: Image classification, price prediction using TensorFlow and Python
+- E-Commerce Platform: Full-featured marketplace with Angular and .NET Core

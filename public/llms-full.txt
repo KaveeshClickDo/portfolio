@@ -1,0 +1,180 @@
+# Kaveesh Senevirathne — Complete Portfolio Information
+
+> Software Engineer | Full Stack Developer | Cloud & AI Enthusiast
+> Website: https://kaveesh.cv
+> Email: khsenevirathne@gmail.com
+> Phone: +94 76 5350039
+> Location: Galle, Sri Lanka
+
+---
+
+## Professional Summary
+
+Results-driven Software Engineer with 4+ years of experience building scalable web applications, cloud microservices, and AI-integrated solutions. Proven track record delivering high-impact projects serving millions of users, including national-scale news platforms, live-streaming systems, and real-time election coverage. Proficient across the full stack with expertise in Java, JavaScript/TypeScript, Spring Boot, React, Next.js, and AWS. Experienced with AI/ML tools and modern AI-assisted development workflows using GitHub Copilot, Cursor, LangChain, and OpenAI APIs.
+
+---
+
+## Professional Experience
+
+### Software Engineer — SeekaHost (Oct 2025 – Present)
+Location: London, United Kingdom (Remote)
+- Building and maintaining cloud-based microservices architecture on AWS
+- Developing scalable backend services using C# and TypeScript
+- Implementing RESTful APIs with Swagger documentation
+Technologies: AWS, Microservices, C#, TypeScript, Swagger API
+
+### Software Engineer — ClickDo (Mar 2025 – Present)
+Location: London, United Kingdom (Remote)
+- Integrating front-end and server-side components with Next.js to maximize SEO performance
+- Building production-grade web applications for UK-based clients
+- Implementing automated testing and optimizing web performance
+Technologies: Next.js, React, Tailwind CSS, SEO, WordPress
+
+### Associate IT Executive — Wave Beach Resort (Jan 2024 – Feb 2025)
+Location: Sri Lanka (Contract)
+- Administered websites and internal applications on a contractual basis
+- Developed Billing & Payment Analytics Dashboard for financial insights
+- Led Booking System Optimization Initiative improving guest experience
+- Implemented Internal System Process Automation reducing manual tasks
+- Managed network infrastructure, security, and server administration
+Technologies: IT Support, Network Admin, System Admin, Database Management, Cyber Security
+
+### Software Engineer — Capital Maharaja Group (Jan 2023 – Aug 2023)
+Location: Colombo, Sri Lanka (Full-time)
+- Developed and maintained multiple production web applications including national news platforms
+- Built real-time election coverage systems and live-streaming platforms serving millions of users
+- Collaborated with cross-functional teams using Agile methodologies
+- Managed cloud deployments with CI/CD pipelines and containerization
+Technologies: Spring Boot, Angular, Next.js, Node.js, Docker, Jenkins
+
+### Software Engineer Intern — Arya Labs Ltd (Nov 2022 – Jan 2023)
+Location: Remote (Internship)
+- Developed a full-featured e-commerce platform using Angular and .NET Core
+- Built a feature-rich dating application with Flutter for cross-platform deployment
+- Gained hands-on experience in SEO optimization and e-commerce best practices
+Technologies: Angular, .NET Core, Flutter, MongoDB, SEO
+
+### Freelance Web & Graphic Designer — Fiverr (Jan 2022 – Nov 2022)
+Location: Remote (Freelance)
+- Delivered high-quality web development and graphic design solutions to clients worldwide
+- Successfully completed multiple projects with positive client feedback
+- Built responsive websites using HTML, CSS, JavaScript and modern frameworks
+Technologies: HTML, CSS, JavaScript, WordPress, Web Design
+
+---
+
+## Projects
+
+### Election 2023 — Newsfirst (Capital Maharaja Group)
+Comprehensive election coverage and analysis platform providing real-time results, transparent ad management, and live updates with accuracy for all types of elections across Sri Lanka.
+Tech: Angular Material, Next.js, Node.js, Spring Boot
+
+### Newsfirst.lk Websites (Capital Maharaja Group)
+Multi-platform news delivery system providing precise and impartial news to the entire population of Sri Lanka through an online media platform.
+Tech: Next.js, Spring Boot, Angular, Bootstrap, MySQL
+
+### Cricket World Cup 2023 Live Stream (Capital Maharaja Group)
+Professional live-streaming platform for CWC 2023 matches serving 1M+ concurrent users with uninterrupted, high-quality streaming.
+Tech: Spring Boot, JavaScript, Bootstrap, MySQL
+
+### Eva Millionaire Dreams — Season 2 (Capital Maharaja Group)
+QR Code Lottery and SMS Gateway integration system for data capture, validation, and customer coupon delivery.
+Tech: PHP (Laravel), Bootstrap, MySQL
+
+### Digital Transformation — Hotel Operations (Wave Beach Resort)
+Billing & Payment Analytics Dashboard, Room Booking System Optimization, Internal Systems Process Automation, and Network Infrastructure Enhancement.
+Tech: Web Admin, Dashboard, Payment Integration, Automation
+
+### Digital Products Management System (IJSE)
+Digital Product Management System for organizing, storing, and managing digital content with metadata tagging, categorization, and access control.
+Tech: MongoDB, Express.js, React, Node.js (MERN Stack)
+
+### Machine Learning Projects (Personal)
+Collection of ML projects: Image Classification using Deep Learning, Laptop Price Prediction, Gold Inflation prediction.
+Tech: Python, Jupyter, TensorFlow, Machine Learning
+
+### E-Commerce Platform (Arya Labs Ltd)
+Full-featured e-commerce platform with product listings, shopping carts, secure payment gateways, and order tracking.
+Tech: Angular, .NET Core, MongoDB
+
+### Dating Application (Arya Labs Ltd)
+Feature-rich dating app with real-time chat, matching algorithms, and secure authentication.
+Tech: Flutter, Firebase, Dart
+
+### Fiverr Web Designer Projects (Freelance)
+10+ web development and graphic design projects for clients worldwide including hotel websites, portfolios, and fitness gym websites.
+Tech: HTML, CSS, JavaScript, WordPress, Figma
+
+### Car Rental System (IJSE)
+Software application for booking and managing rental cars with search, reservations, payments, and tracking.
+Tech: Java, JavaFX, MySQL
+
+### Pharmacy Management System (IJSE)
+Web application for pharmacy operations: inventory management, prescription processing, sales tracking.
+Tech: Spring MVC, Java, MySQL, Bootstrap
+
+### Live Chat Application (IJSE)
+Real-time text-based communication application with instant messaging, chat history, and file sharing.
+Tech: Java, Socket Programming, Client-Server
+
+---
+
+## Technical Skills
+
+### Programming Languages
+Java (Expert), JavaScript (Expert), TypeScript (Advanced), CSS/SASS (Advanced), SQL (Advanced), Python (Intermediate), PHP (Intermediate), C# (Intermediate)
+
+### Frameworks & Libraries
+React, React Native, Angular, AngularJS, Vue.js, Next.js, NestJS, Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, .NET Core, Node.js, Express.js, Laravel, Flutter, JavaFX, Bootstrap, Tailwind CSS, jQuery, Maven, Gradle, NPM
+
+### AI & Machine Learning
+OpenAI API, LangChain, RAG (Retrieval-Augmented Generation), Prompt Engineering, TensorFlow, Scikit-learn, Pandas, NumPy, Jupyter, GitHub Copilot, Cursor, Claude AI, ChatGPT
+
+### DevOps & Cloud
+AWS, Docker, Jenkins, Ansible, Apache Tomcat, Apache, CI/CD, Serverless, Windows Server, Linux Server
+
+### Databases
+MySQL, MongoDB, Microsoft SQL Server
+
+### Tools & Platforms
+Git, GitHub, GitLab, Postman, Swagger, Figma, Draw.io, WordPress, Agile, REST APIs, Active Directory
+
+### IDEs
+IntelliJ IDEA, VS Code, Cursor, Android Studio
+
+### Operating Systems
+Ubuntu, Windows, macOS
+
+---
+
+## Education
+
+### Bachelor of Engineering (BE), Computer Software Engineering
+London Metropolitan University, United Kingdom (2025–2027, In Progress)
+
+### Graduate Diploma in Software Engineering (GDSE)
+Institute of Software Engineering (IJSE), Sri Lanka (Sep 2021 – Sep 2024)
+
+### Diploma of Education, ICT System Development
+IDM Nations Campus International, Sri Lanka (2019–2020)
+
+### Secondary Education
+St. Aloysius' College, Sri Lanka (2005–2018)
+
+---
+
+## Certifications
+- Certified API Tester
+- Full Stack QA
+- Java Masterclass
+- OCI AI Foundations Associate 2025 (Oracle)
+- ISC2 Certified in Cybersecurity (CC)
+- IBM Blockchain Essentials
+
+---
+
+## Social Links
+- LinkedIn: https://www.linkedin.com/in/kaveesh-senevirathne
+- GitHub: https://github.com/KHSenevirathne
+- Stack Overflow: https://stackoverflow.com/users/14956167/kaveesh-senevirathne
+- Twitter: https://twitter.com/KHSenevirathne

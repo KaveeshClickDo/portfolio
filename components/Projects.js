@@ -9,6 +9,10 @@ const categoryColors = {
   Media: 'text-purple-400 bg-purple-400/10 border-purple-400/20',
   Streaming: 'text-red-400 bg-red-400/10 border-red-400/20',
   Application: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
+  'AI/ML': 'text-amber-400 bg-amber-400/10 border-amber-400/20',
+  'E-Commerce': 'text-cyan-400 bg-cyan-400/10 border-cyan-400/20',
+  Mobile: 'text-pink-400 bg-pink-400/10 border-pink-400/20',
+  Freelance: 'text-orange-400 bg-orange-400/10 border-orange-400/20',
 };
 
 function ProjectCard({ project, index }) {
